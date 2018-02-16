@@ -1,0 +1,43 @@
+﻿<div class="page-header">
+    <a href="#/Empadd" class="btn btn-primary pull-right">Add new</a>
+       <h1 class="bg-default "> All Employee List</h1>
+   
+      </div>
+
+<div>
+      
+    
+	
+	  <table border="1" class="table table-bordered">
+    <thead>
+    <tr>
+         
+        <th>Emp ID </th>
+        <th>Emp Name</th>
+        <!--<th>Emp Image</th>-->
+        <th>Emp gender</th>
+        <th>Emp Email</th>
+        <th>Emp Address</th>
+        <th>Emp DOB</th>
+        <th>Emp DOJ</th>
+        <th>Emp BloodGroup</th>
+        <th>Modify</th>
+    </tr>
+    </thead>
+       
+        <tbody>
+        <tr ng-repeat="item in emp">
+        <td>{{item.EmpID}}</td>
+        <td>{{item.EmpName}}</td>
+        <!--<td><img ng-src="images/{{item.imglink}}.jpg" alt="{{item.name}}" width="100" /> </td>-->
+        <td>{{item.Empgender}}</td>
+        <td>{{item.EmpEmail}}</td>
+        <td>{{item.EmpAddress}}</td>
+        <td>{{item.EmpDOB}}</td>
+        <td>{{item.EmpDOJ}}</td>
+        <td>{{item.EmpBloodgroup}}</td>
+            <td><a class="more" href="#/Empedit/{{emp.indexOf(item)}}"> edit</a></td>
+        </tr>
+         </tbody>
+    </table>
+</div>

@@ -1,0 +1,89 @@
+[
+  {
+    "Date": "26-Jan-2017",
+    "Day": "Thursday",
+    "Occassion": "Republic Day",
+    "Leavetype": "Public Holiday"      
+  },
+  {
+    "Date": "24-Feb-2017",
+    "Day": "Friday",
+    "Occassion": "Mahashivratri",
+    "Leavetype": "Optional Holiday"
+  },
+  {
+    "Date": "13-Mar-2017",
+    "Day": "Monday",
+    "Occassion": "Holi",
+    "Leavetype": "Public Holiday"
+  },
+  {
+    "Date": "14-Apr-2017",
+    "Day": "Friday",
+    "Occassion": "Republic Day",
+    "Leavetype": "Public Holiday"      
+  },
+  {
+    "Date": "28-Mar-2017",
+    "Day": "Tuesday",
+    "Occassion": "Gudi Padwa",
+    "Leavetype": "Optional Holiday"
+  },
+  {
+    "Date": "01-May-2017",
+    "Day": "Monday",
+    "Occassion": "Maharashtra Day",
+    "Leavetype": "Public Holiday"
+  },{
+    "Date": "26-Jun-2017",
+    "Day": "Monday",
+    "Occassion": "Ramzan Id",
+    "Leavetype": "Optional Holiday"      
+  },
+  {
+    "Date": "15-Aug-2017",
+    "Day": "Tuesday",
+    "Occassion": "Independence Day",
+    "Leavetype": "Public Holiday"
+  },
+  {
+    "Date": "17-Aug-2017",
+    "Day": "Thursday",
+    "Occassion": "Parsi New Year",
+    "Leavetype": "Optional Holiday"
+  },{
+    "Date": "25-Aug-2017",
+    "Day": "Friday",
+    "Occassion": "Ganesh Chaturthi",
+    "Leavetype": "Public Holiday"      
+  },
+  {
+    "Date": "02-Oct-2017",
+    "Day": "Monday",
+    "Occassion": "Mahatma Gandhi Jayanthi",
+    "Leavetype": "Public Holiday"
+  },
+  {
+    "Date": "20-Oct-2017",
+    "Day": "Friday",
+    "Occassion": "Diwali (Balipratipada)",
+    "Leavetype": "Optional Holiday"
+  },{
+    "Date": "19-Oct-2017",
+    "Day": "Thursday",
+    "Occassion": "Diwali (Laxmi Puja)",
+    "Leavetype": "Public Holiday"      
+  },
+  {
+    "Date": "01-Dec-2017",
+    "Day": "Friday",
+    "Occassion": "Id-E-Milad",
+    "Leavetype": "Optional Holiday"
+  },
+  {
+    "Date": "25-Dec-2017",
+    "Day": "Monday",
+    "Occassion": "Christmas" ,
+    "Leavetype": "Public Holiday"
+  }
+]

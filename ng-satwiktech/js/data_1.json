@@ -1,0 +1,68 @@
+[
+  {
+    "EmpID": "0001",
+    "EmpName": "Piyush Singh",
+    "imglink": "piyush_singh",
+    "Empgender": "Male",
+    "EmpEmail": "Piyush.singh@blenheimchalcot.com",
+    "EmpAddress": "A-101,vinay apt opp vidya vihar school agashi rd virar west.",
+    "EmpDOB": "01/06/1982",
+    "EmpDOJ": "10/08/2015",
+    "EmpBloodgroup": "B positive"
+  },
+  {
+    "EmpID": "0002",
+    "EmpName": "Nutan Singh",
+    "imglink" : "nutan_singh",
+    "Empgender": "Female",
+    "EmpEmail": "Nutan.singh@blenheimchalcot.com",
+    "EmpAddress": "D-301,vinay apt opp vidya vihar school agashi rd virar west.",
+    "EmpDOB": "26/08/1985",
+    "EmpDOJ": "10/08/2015",
+    "EmpBloodgroup": "A positive"
+  },
+  {
+    "EmpID": "0003",
+    "EmpName": "Swati Singh",
+    "imglink" : "swati_singh",
+    "Empgender": "Female",
+    "EmpEmail": "swati.singh@blenheimchalcot.com",
+    "EmpAddress": "A-101,vinay apt opp vidya vihar school agashi rd virar west.",
+    "EmpDOB": "26/08/1985",
+    "EmpDOJ": "10/08/2015",
+    "EmpBloodgroup": "B positive"
+  },
+  {
+    "EmpID": "0004",
+    "EmpName": "Santosh Singh",
+    "imglink": "santosh_singh",
+    "Empgender": "Male",
+    "EmpEmail": "santosh.singh@blenheimchalcot.com",
+    "EmpAddress": "A-101,vinay apt opp vidya vihar school agashi rd virar west.",
+    "EmpDOB": "26/08/1985",
+    "EmpDOJ": "10/08/2015",
+    "EmpBloodgroup": "B positive"
+  },
+  {
+    "EmpID": "0005",
+    "EmpName": "jyestha Singh",
+    "imglink" : "jyestha_singh",
+    "Empgender": "Female",
+    "EmpEmail": "jyestha.singh@blenheimchalcot.com",
+    "EmpAddress": "D-301,vinay apt opp vidya vihar school agashi rd virar west.",
+    "EmpDOB": "26/08/1985",
+    "EmpDOJ": "10/08/2015",
+    "EmpBloodgroup": "A positive"
+  },
+  {
+    "EmpID": "0006",
+    "EmpName": "manthan Singh",
+    "imglink" : "manthan_singh",
+    "Empgender": "Male",
+    "EmpEmail": "manthan.singh@blenheimchalcot.com",
+    "EmpAddress": "D-301,vinay apt opp vidya vihar school agashi rd virar west.",
+    "EmpDOB": "26/08/1985",
+    "EmpDOJ": "10/08/2015",
+    "EmpBloodgroup": "AB positive"
+  }
+]

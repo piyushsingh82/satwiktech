@@ -1,0 +1,57 @@
+﻿
+   <div class="page-header">
+       <h1 class="bg-default hide"> Add Employee details</h1>
+      </div>
+<div>
+      
+    <div class="col-md-12"  ng-controller="InsertEmpDetailsController">
+    <form action="Edit_detail.html" method="post" class="form-horizontal">
+         <div class="col-md-6">
+            <div class="form-group">
+            <label class="col-sm-6 col-md-3 control-label">Employee Id </label>
+            <div class="col-sm-12 col-md-9"> <input type="number" disabled ng-model="empid" class="form-control"/></div>
+           </div>
+              <div class="form-group">
+             <label class="col-sm-6 col-md-3 control-label">Employee Name </label>
+           <div class="col-sm-12 col-md-9">  <input type="text"  ng-model="empname" class="form-control"/></div>
+           </div>
+              <div class="form-group">
+             <label class="col-sm-6 col-md-3 control-label">Employee Gender </label>
+           <div class="col-sm-12 col-md-9">  <input type="text"   ng-model="empgender" class="form-control"/></div>
+           </div>
+              <div class="form-group">
+             <label class="col-sm-6 col-md-3 control-label">Employee E-Mail </label>
+         <div class="col-sm-12 col-md-9">   <input type="email"   ng-model="empemail" class="form-control"/></div>
+           </div>
+              <div class="form-group">
+             <label class="col-sm-6 col-md-3 control-label">Employee Address </label>
+        <div class="col-sm-12 col-md-9">     <textarea cols="2"    ng-model="empadd" class="form-control"></textarea></div>
+           </div>
+            <div class="form-group">
+             <label class="col-sm-6 col-md-3 control-label">Employee DOB </label>
+           <div class="col-sm-12 col-md-9">  <input type="date"   ng-model="empdob" class="form-control"/></div>
+           </div>
+            <div class="form-group">
+             <label class="col-sm-6 col-md-3 control-label">Employee DOJ </label>
+           <div class="col-sm-12 col-md-9">  <input type="date"   ng-model="emppdoj" class="form-control"/></div>
+           </div>
+            <div class="form-group">
+             <label class="col-sm-6 col-md-3 control-label">Employee Bloodgroup </label>
+           <div class="col-sm-12 col-md-9">  <input type="text"   ng-model="empbldgrp" class="form-control"/></div>
+           </div>
+         
+        <div class="form-group">
+             <div class="col-sm-offset-3 col-sm-9">
+           <div class="col-sm-12 col-md-9">  <input type="checkbox" /> Remember Me</div>
+                 </div>
+           </div>
+        <div class="form-group">
+             <div class="col-sm-offset-3 col-sm-9">
+                 <div class="col-sm-12 col-md-9">  <button type="button" class="btn btn-default"> Clear </button> <button type="button" class="btn btn-primary" ng-click="AddEmp()"> Submit</button></div>
+                 </div>
+            </div>
+    </div>
+    </form>
+        </div>
+    </div>
+         

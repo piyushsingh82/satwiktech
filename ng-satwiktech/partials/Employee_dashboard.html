@@ -1,0 +1,148 @@
+﻿  
+<div class="page-header">
+       <h1 class="bg-default"> Employee Dashboard</h1>
+      </div>
+<div class="dashboardpage">
+
+   
+
+    <div class="col-sm-6">
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <h3 class="panel-title">Leave Details</h3>
+            </div>
+            <div class="panel-body">
+                <table class="table">
+                    <thead>
+                        <tr>
+                        <th>Date of leave</th>
+                        <th>No. of days</th>
+                        <th>Reason of leave</th>
+                        </tr>
+                    </thead>
+                    <tbody class="tabledetails">
+                        <!--<tr>
+                            <td>Date of leave</td>
+                            <td>No. of days</td>
+                            <td>Reason of leave</td>
+                        </tr>-->
+                        <tr ng-repeat="item in Leaves">
+                        <td>{{item.Date}}</td>
+                        <td>{{item.NoOfDays}}</td>
+                        <td>{{item.Reason}}</td>
+
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6">
+        <div class="panel panel-danger">
+            <div class="panel-heading">
+                <h3 class="panel-title">List of Holidays</h3>
+            </div>
+            <div class="panel-body">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Day</th>
+                            <th>Occasion</th>
+                            <th>Holiday Type</th>
+                        </tr>
+                    </thead>
+                    <tbody class="tabledetails">
+                        <!--<tr>
+                            <td>Date</td>
+                            <td>Day</td>
+                            <td>Occasion</td>
+                            <td>Holiday Type</td>
+                        </tr>-->
+                        <tr ng-repeat="item in Holidays">
+                        <td>{{item.Date}}</td>
+                        <td>{{item.Day}}</td>
+                        <td>{{item.Occassion}}</td>
+                        <td>{{item.Leavetype}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div><!-- /.col-sm-4 -->
+
+        <div class="col-sm-6">
+          <div class="panel panel-warning">
+            <div class="panel-heading">
+              <h3 class="panel-title">Upcomming Events </h3>
+            </div>
+            <div class="panel-body"  ng-model="emp">
+                <table class="table">
+
+                    <tr>
+                        <td class="fa-bullhorn">Profile details.</td>
+                    </tr>
+                    <tr>
+                        <td>{{emp[0].EmpEmail}}</td>
+                    </tr>
+                    <tr>
+                        <td>{{emp[0].EmpAddress}}</td>
+                    </tr>
+                    <tr>
+                        <td>{{emp[0].EmpDOJ}}</td>
+                    </tr>
+                    <tr>
+                        <td>{{emp[0].EmpBloodgroup}}</td>
+                    </tr>
+                </table>
+             <table class="table">
+                <tr><td>Sr.No.</td><td>Profile Details</td></tr>
+                <tr><td>1</td><td></td></tr>
+                <tr><td>2</td><td></td></tr>
+                <tr><td>3</td><td></td></tr>
+                <tr><td>4</td><td></td></tr>
+                <tr><td>5</td><td></td></tr>
+                <tr><td>6</td><td></td></tr>
+                   </table>
+            </div>
+          </div>
+                </div>
+      <div class="col-sm-6">
+          <div class="panel panel-info">
+            <div class="panel-heading">
+              <h3 class="panel-title">Birthday(s)</h3>
+            </div>
+            <div class="panel-body">
+            <table class="table">
+                <tr><td>Date</td><td>Birthday list</td></tr>
+                <tr><td>1</td><td></td></tr>
+                <tr><td>2</td><td></td></tr>
+                <tr><td>3</td><td></td></tr>
+                <tr><td>4</td><td></td></tr>
+                <tr><td>5</td><td></td></tr>
+                <tr><td>6</td><td></td></tr>
+                    </table>
+            </div>
+          </div>
+              </div>
+     <div class="col-sm-6">
+          <div class="panel panel-success">
+            <div class="panel-heading">
+              <h3 class="panel-title">Aniversary(s)</h3>
+            </div>
+            <div class="panel-body">
+            <table class="table">
+                <tr><td>Date</td><td>Aniversary list</td></tr>
+                <tr><td>1</td><td></td></tr>
+                <tr><td>2</td><td></td></tr>
+                <tr><td>3</td><td></td></tr>
+                <tr><td>4</td><td></td></tr>
+                <tr><td>5</td><td></td></tr>
+                <tr><td>6</td><td></td></tr>
+                    </table>
+            </div>
+          </div>
+        </div><!-- /.col-sm-4 -->
+      </div>
+         

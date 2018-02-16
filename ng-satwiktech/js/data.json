@@ -1,0 +1,58 @@
+[
+  {
+    "name":"Elisha Kirch",
+    "img_link" : "Elisha_Kirch",
+    "designation" : "Founder & CEO",
+    "department" : "Formget & MailGet",
+    "bio": "Magnis scelerisque fermentum blandit. Sapien tempor montes elementum tempus litora torquent aliquam cursus cum ad adipiscing semper felis. Pede, eros convallis est, mi lorem conubia est habitant scelerisque. Enim morbi vestibulum venenatis nullam mauris suscipit.Ipsum inceptos turpis netus purus ullamcorper phasellus ultricies, euismod non penatibus class ridiculus elementum litora etiam dolor litora cubilia sociosqu class sapien diam dolor accumsan duis interdum rutrum eros. Nostra est montes malesuada ridiculus est. Luctus Curabitur eros."
+  },
+  {
+    "name":"Wyatt Brandis",
+    "img_link" : "Wyatt_Brandis",
+    "designation" : "Web Developer",
+    "department" : "Aorank",
+    "bio": "Magnis scelerisque fermentum blandit. Sapien tempor montes elementum tempus litora torquent aliquam cursus cum ad adipiscing semper felis. Pede, eros convallis est, mi lorem conubia est habitant scelerisque. Enim morbi vestibulum venenatis nullam mauris suscipit.Ipsum inceptos turpis netus purus ullamcorper phasellus ultricies, euismod non penatibus class ridiculus elementum litora etiam dolor litora cubilia sociosqu class sapien diam dolor accumsan duis interdum rutrum eros. Nostra est montes malesuada ridiculus est. Luctus Curabitur eros."
+  },
+  {
+    "name":"Tenisha Preslar",
+    "img_link" : "Tenisha_Preslar",
+    "designation" : "Team Leader",
+    "department" : "Aorank",
+    "bio": "Magnis scelerisque fermentum blandit. Sapien tempor montes elementum tempus litora torquent aliquam cursus cum ad adipiscing semper felis. Pede, eros convallis est, mi lorem conubia est habitant scelerisque. Enim morbi vestibulum venenatis nullam mauris suscipit.Ipsum inceptos turpis netus purus ullamcorper phasellus ultricies, euismod non penatibus class ridiculus elementum litora etiam dolor litora cubilia sociosqu class sapien diam dolor accumsan duis interdum rutrum eros. Nostra est montes malesuada ridiculus est. Luctus Curabitur eros."
+  },
+  {
+    "name":"Josie Rylander",
+    "img_link" : "Josie_Rylander",
+    "designation" : "Tester",
+    "department" : "MailGet",
+    "bio": "Magnis scelerisque fermentum blandit. Sapien tempor montes elementum tempus litora torquent aliquam cursus cum ad adipiscing semper felis. Pede, eros convallis est, mi lorem conubia est habitant scelerisque. Enim morbi vestibulum venenatis nullam mauris suscipit.Ipsum inceptos turpis netus purus ullamcorper phasellus ultricies, euismod non penatibus class ridiculus elementum litora etiam dolor litora cubilia sociosqu class sapien diam dolor accumsan duis interdum rutrum eros. Nostra est montes malesuada ridiculus est. Luctus Curabitur eros."
+  },
+  {
+    "name":"Madelene Lucy",
+    "img_link" : "Madelene_Lucy",
+    "designation" : "Team Leader",
+    "department" : "Sales & Marketing, InkThemes",
+    "bio": "Magnis scelerisque fermentum blandit. Sapien tempor montes elementum tempus litora torquent aliquam cursus cum ad adipiscing semper felis. Pede, eros convallis est, mi lorem conubia est habitant scelerisque. Enim morbi vestibulum venenatis nullam mauris suscipit.Ipsum inceptos turpis netus purus ullamcorper phasellus ultricies, euismod non penatibus class ridiculus elementum litora etiam dolor litora cubilia sociosqu class sapien diam dolor accumsan duis interdum rutrum eros. Nostra est montes malesuada ridiculus est. Luctus Curabitur eros."
+  },
+  {
+    "name":"Jasper Sandrock",
+    "img_link" : "Jasper_Sandrock",
+    "designation" : "Plugin Developer",
+    "department" : "InkThemes",
+    "bio": "Magnis scelerisque fermentum blandit. Sapien tempor montes elementum tempus litora torquent aliquam cursus cum ad adipiscing semper felis. Pede, eros convallis est, mi lorem conubia est habitant scelerisque. Enim morbi vestibulum venenatis nullam mauris suscipit.Ipsum inceptos turpis netus purus ullamcorper phasellus ultricies, euismod non penatibus class ridiculus elementum litora etiam dolor litora cubilia sociosqu class sapien diam dolor accumsan duis interdum rutrum eros. Nostra est montes malesuada ridiculus est. Luctus Curabitur eros."
+  },
+  {
+    "name":"Russ Vandenberg",
+    "img_link" : "Russ_Vandenberg",
+    "designation" : "Software Developer",
+    "department" : "MailGet",
+    "bio": "Magnis scelerisque fermentum blandit. Sapien tempor montes elementum tempus litora torquent aliquam cursus cum ad adipiscing semper felis. Pede, eros convallis est, mi lorem conubia est habitant scelerisque. Enim morbi vestibulum venenatis nullam mauris suscipit.Ipsum inceptos turpis netus purus ullamcorper phasellus ultricies, euismod non penatibus class ridiculus elementum litora etiam dolor litora cubilia sociosqu class sapien diam dolor accumsan duis interdum rutrum eros. Nostra est montes malesuada ridiculus est. Luctus Curabitur eros."
+  },
+  {
+    "name":"Tory Negus",
+    "img_link" : "Tory_Negus",
+    "designation" : "Support Team Lead",
+    "department" : "InkThemes",
+    "bio": "Magnis scelerisque fermentum blandit. Sapien tempor montes elementum tempus litora torquent aliquam cursus cum ad adipiscing semper felis. Pede, eros convallis est, mi lorem conubia est habitant scelerisque. Enim morbi vestibulum venenatis nullam mauris suscipit.Ipsum inceptos turpis netus purus ullamcorper phasellus ultricies, euismod non penatibus class ridiculus elementum litora etiam dolor litora cubilia sociosqu class sapien diam dolor accumsan duis interdum rutrum eros. Nostra est montes malesuada ridiculus est. Luctus Curabitur eros."
+  }
+]

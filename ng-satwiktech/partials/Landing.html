@@ -1,0 +1,95 @@
+﻿<h1>Your wall</h1>
+<hr>
+<div class="landingpage" ng-model="emp">
+    <div class="col-sm-2">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h3 class="panel-title">Profile Detail(s)</h3>
+            </div>
+            <div class="panel-body">
+                <table class="table">
+                    <tr>
+                        <td><img ng-src='images/{{emp[0].imglink}}.jpg' alt="{{item.name}}" style="width:100%" /></td>
+                    </tr>
+                    <tr>
+                        <td>{{emp[0].EmpID}}</td>
+                    </tr>
+                    <tr>
+                        <td>{{emp[0].EmpName}}</td>
+                    </tr>
+                    <tr>
+                        <td>{{emp[0].Empgender}}</td>
+                    </tr>
+                    <tr>
+                        <td>{{emp[0].EmpDOB}}</td>
+                    </tr>
+                    <tr>
+                    <td><a ng-href="#/Empedit/0">Edit Details</a></td>    
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6">
+        
+        <div class="panel panel-success">
+            <div class="panel-heading">
+                <h3 class="panel-title">Post(s) on your Wall</h3>
+            </div>
+            <div class="panel-body">
+                <label>What's on your Mind ?? </label>
+                <textarea class="form-control" style="resize:none"></textarea>
+                <hr />
+                <table class="table">
+                   
+                    <tr>
+                        <td class="fa fa-bullhorn"> </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td> </td>
+                    </tr>
+                    <tr>
+                        <td> </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="panel panel-warning">
+            <div class="panel-heading">
+                <h3 class="panel-title">Recent Activitie(s)</h3>
+            </div>
+            <div class="panel-body">
+                <table class="table">
+                    <tr>
+                        <td>
+                            <h4>Twitter Feed</h4>
+                            <ul class="iconlist twitter-feed" data-username="envato" data-count="2">
+                                <li>
+                                    <i class="icon-twitter"></i><a href="http://twitter.com/envato" class="twitter-avatar" target="_blank">
+                                        <img src="http://pbs.twimg.com/profile_images/655904741617086464/nwevoHSQ_normal.png" alt="Envato" title="Envato">
+                                    </a>
+                                    <span>If you want to make an impact, a well-crafted letter beats an email every time. #WorldStationeryDay <a href="https://t.co/JLrvCVOS6T" target="_blank">https://t.co/JLrvCVOS6T</a></span>
+                                    <small><a href="http://twitter.com/envato/statuses/857167389628223489" target="_blank">about 3 hours ago</a></small>
+                                </li>
+                                <li><i class="icon-twitter"></i><a href="http://twitter.com/envato" class="twitter-avatar" target="_blank"><img src="http://pbs.twimg.com/profile_images/655904741617086464/nwevoHSQ_normal.png" alt="Envato" title="Envato"></a><span>RT @<a href="http://twitter.com/Mstavakoli" target="_blank">Mstavakoli</a>: Happy #WorldStationeryDay !! My favorite paper products are making a comeback - via @<a href="http://twitter.com/envato" target="_blank">envato</a> <a href="https://t.co/M9M2cCUIvc" target="_blank">https://t.co/M9M2cCUIvc</a></span><small><a href="http://twitter.com/envato/statuses/857120810858840065" target="_blank">about 6 hours ago</a></small></li>
+                            </ul>
+                            <a href="#" class="btn btn-default btn-sm fright">Follow Us on Twitter</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+</div>
