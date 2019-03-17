@@ -1,23 +1,21 @@
 $(document).ready(function () {
      
-    $.ajax("sample.json",
+    $.ajax("https://jsonplaceholder.typicode.com/users",
     {  
-        
-        dataType:'json',
+       dataType:'json',
         contentType:'application/json',
         cache:false,
         beforeSend : function () {
-            $("#status").text("loading...");
-            
-        }
+                   $("#status").text("loading...");
+             }
     }).done(function(response) {
        
         var html1;
         $.each(response,function(index,value){
-              html1 = ' <div data-id="'+value.id+'">';
+              html1 = ' <div class="userinfo" data-id="'+value.id+'">';
               html1 +=' no '+value.id+' ';
               html1 +=' Name :'+ value.name +' ';
-              html1+= ' area '+value.area+', amount is '+value.amount +'. <a href="javascript:void(0)" class="amount">clickme<a> </div>'
+              html1+= ' email is '+value.email+', Phone is '+value.phone +'. <a href="javascript:void(0)" class="amount">clickme<a> </div>'
                $("#result").append(html1);
         })
        
@@ -30,7 +28,9 @@ $(document).ready(function () {
                 $("#status").text("loading completed.");
              
     });
-    
+   $('#simplebutton').on("click",function(){
+       location.reload();
+   });
     var total   = 0;
     $('body').on("click",".amount",function(event){
     event.preventDefault();
