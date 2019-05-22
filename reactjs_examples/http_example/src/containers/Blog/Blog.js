@@ -4,39 +4,47 @@ import Post from '../../components/Post/Post';
 import FullPost from '../../components/FullPost/FullPost';
 import NewPost from '../../components/NewPost/NewPost';
 import './Blog.css';
-import post from '../../components/Post/Post';
 
 class Blog extends Component {
     state = {
-        posts:[]
-    }
-    componentDidMount(){
-axios.get('https://jsonplaceholder.typicode.com/posts')
-.then(response => {
-    //console.log(response);
-    const post = response.data.slice(0,4);
-    const updatedpost = post.map(post=>{
-        return {
-            ...post,
-            author : 'max'
+        posts:[],
+        selectedPostId:null
         }
-    });
-    this.setState({ posts : updatedpost });
-    }  
-    );
-    }
-    postSelectHandler 
+        componentDidMount(){
+            axios.get('http://jsonplaceholder.typicode.com/posts/')
+            .then( response =>{ 
+                const posts=response.data.slice(0,6);
+                const updatedPosts = posts.map(posts=>{
+                    return {
+                        ...posts,
+                    author:'piyush'
+                    }
+                })
+               // console.log(response.data);
+            this.setState({posts:updatedPosts});
+            })
+
+        }
+        postSelectedHandler = (id) =>
+        {
+            this.setState({selectedPostId:id})
+        }
     render () {
-        const posts =  this.state.posts.map(post=>{
-            return <Post key= {post.id} title={post.title} author={post.author} clicked ={post.author} />
+        const posts= this.state.posts.map(post=>{
+            return <Post 
+            title={post.title} 
+            key={post.id} 
+            author={post.author} 
+            //body={post.body}
+            clicked={()=>this.postSelectedHandler(post.id)} />
         });
         return (
-              <div>
+            <div>
                 <section className="Posts">
-                    {posts}
+                  {posts}
                 </section>
                 <section>
-                    <FullPost />
+                    <FullPost id={this.state.selectedPostId}/>
                 </section>
                 <section>
                     <NewPost />

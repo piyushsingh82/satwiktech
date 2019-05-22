@@ -32,9 +32,15 @@ class App extends Component {
       console.log(error);
      });
   }
-  render() {const UserList = (props) => (         
-    <p><strong>name : </strong> {props.name.first}</p>
-)
+  render() {
+    const UserList = (props) => (         
+    <p>
+     <img src= {props.picture.medium} /> 
+    <strong>name : </strong>
+     {props.name.title} {props.name.first} {props.name.last},
+    
+     </p>
+    )
 
     return (
       <div className="App">
