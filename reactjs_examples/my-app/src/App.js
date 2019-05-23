@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import logo from './logo.svg';
 import './App.css';
-// import Person from './Person/Person';
+import reduxdemo from './reduxdemo';
 
 class App extends Component {
   // state = {
@@ -49,9 +49,8 @@ class App extends Component {
           
         </header>
           { this.state.data.map( (item, index) => <UserList key={index} {...item} />) } 
-        {/* <button onClick={this.switchNameHandler}>switch name</button>
-        <Person name={this.state.persons[0].name} age={this.state.persons[0].age}/>
-      <Person name={this.state.persons[1].name} age={this.state.persons[1].age}>My child name is Jyestha and manthan</Person> */}
+       
+      <reduxdemo />
       </div>
      
     );
