@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Factorial of Number</title>
+  </head>
+  <body>
+     
+    <input type="number" min="1" id="num" />
+    <button type="button" onclick="submit()">Submit</button>
+    <pre>Factorial: <span id="answer"> </span></pre>
+    <script>
+      // This function will get value from the user and pass it to Factorial function
+       function submit() {
+        var newno = document.getElementById("num").value;
+        let fact =1;
+        
+        if(newno>0)
+        {
+          for (i=1;i<=newno;i++)
+         { 
+           fact = fact * i;
+         }
+          console.log(fact)
+        }      
+      document.getElementById("answer").innerHTML = fact;
+      }
+      
+    </script>
+  </body>
+</html>
